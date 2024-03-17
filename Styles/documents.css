@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    background-color: #333333;
+    padding: 0;
+    align-items: center;
+}
+
+.Doc {
+    text-align: center;
+}
+
+/* Add a reset for ul */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menuitems {
+    float: right;
+    padding-top: 2px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+.rightmenu {
+    list-style-type: none;
+    align-items: center;
+}
+
+.cornerbadge {
+    float: left;
+}
+
+.cornerbadge a{
+    font-size: 28px;
+    padding: 14px;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    width: 400px;
+}
+   
+.menuitems a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 18px;
+  text-decoration: none;
+  width: 200px;
+}
+
+.menuitems a:hover {
+  background-color: #111111;
+  color: white;
+}
+
+/* Media Query for mobile screens */
+@media (max-width: 1000px) {
+    
+   html, body {
+    overflow-x: hidden;
+}
+.CareerSectImg {
+    width: 80%;
+    height: 60%;
+}
+    
+.CareerSectBlock{
+    display: block;
+    align-items: center;
+    text-align: center;
+    border: 2px solid white;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 10px;
+}    
+    body{
+        width: 100%;
+    }
+    
+    .topbar {
+        width:100%;
+    }
+    .cornerbadge {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cornerbadge a {
+        width: 100%;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .rightmenu {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .menuitems {
+        float: none;
+        width: 33.33%;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menuitems a {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        padding: 5px;
+    }}

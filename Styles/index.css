@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    background-color: #333333;
+    padding: 0;
+    align-items: center;
+}
+
+/* Add a reset for ul */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menuitems {
+    float: right;
+    padding-top: 2px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+.rightmenu {
+    list-style-type: none;
+    align-items: center;
+}
+
+.cornerbadge {
+    float: left;
+}
+
+.cornerbadge a{
+    font-size: 28px;
+    padding: 14px;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    width: 400px;
+}
+   
+.menuitems a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 18px;
+  text-decoration: none;
+  width: 200px;
+}
+
+.menuitems a:hover {
+  background-color: #111111;
+  color: white;
+}
+
+.Aboutme {
+    background-color: #333333;
+    padding: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.AMRow {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.AMCol {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    align-items: center;
+    text-align: center;
+}
+
+.AMDImg {
+    display: block;
+    align-items: center;
+}
+.AMDImgActual{
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.AMDTitle {
+    font-size: 18px;
+    display: block;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 10px;
+    color: white;
+}
+
+.AMDDet {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 7px;
+    width: 60%;
+    color: white;
+    border: 2px solid white;
+}
+
+.Bio {
+    background-color: #333333;
+    float: none;
+    align-items: center;
+}
+
+.Banner {
+    width: 100%;
+    height: 600px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.BottomBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  align-items: center;
+}
+
+.CItems {
+    font-size: 24px;
+    padding: 14px;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    width: 30%;
+}
+
+.CItems a{
+    text-decoration:none;
+    color: black;
+}
+
+.CItems:hover{
+  background-color: #111111;
+  color: white;
+}
+
+/* Media Query for mobile screens */
+@media (max-width: 1000px) {
+    
+   /* html, body {
+    overflow-x: hidden;
+}*/
+    
+    body{
+        width: 100%;
+    }
+    
+    .topbar {
+        width:100%;
+    }
+    .cornerbadge {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cornerbadge a {
+        width: 100%;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .rightmenu {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .menuitems {
+        float: none;
+        width: 33.33%;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menuitems a {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .AMCol, .AMDDet, .CItems {
+        width: 100%;
+    }
+    
+    .AMCol{
+    padding-bottom:5px;
+    }
+    
+    .AMDDet {
+    margin-top: 10px;
+    display: inline-block;
+    padding-top: 7px;
+    padding-bottom:7px;
+    width: 50%;
+    color: white;
+    border: 2px solid white;
+}
+    
+    .Aboutme{
+        padding: 0px;
+    }
+
+    .Banner {
+        height: 400px;
+        padding-bottom: 30px;
+    }
+}
