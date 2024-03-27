@@ -70,42 +70,81 @@ ul {
     padding: 0;
     text-align: center;
     align-items: center;
+    display: flex;
 }
 
 .AMCol {
     display: inline-block;
-    width: 45%;
+    width: 100%;
     vertical-align: top;
     align-items: center;
     text-align: center;
+    list-style-type: none;
+    padding-left: 10%;
 }
 
 .AMDImg {
-    display: block;
+    display: inline;
     align-items: center;
 }
 .AMDImgActual{
-    height: 300px;
-    width: 200px;
+    height: 500px;
+    width: 350px;
     border-radius: 20px;
 }
 
 .AMDTitle {
-    font-size: 18px;
+    font-size: 28px;
     display: block;
     font-weight: bold;
-    text-decoration: underline;
     margin-top: 10px;
     color: white;
+    border: 2px solid white;
+    width: 200px;
+    text-align: center;
+    align-self: center;
+    margin: 0 auto; /* Center horizontally */
 }
+
+.Achievements {
+    display: flex;
+    color: white;
+}
+
+.Alist {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.ATitle{
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+
+}
+
+.AProject {
+    padding: 5px;
+    padding-top: 0px;
+}
+
+.ALink{
+    text-decoration: none;
+    color: white;
+}
+
+.ALink:hover{
+    background-color: white;
+    color: #111111;
+  }
+
 
 .AMDDet {
     margin-top: 10px;
     display: inline-block;
     padding: 7px;
-    width: 60%;
     color: white;
-    border: 2px solid white;
+    font-size: 22px;
 }
 
 .Bio {
@@ -148,6 +187,12 @@ ul {
 .CItems:hover{
   background-color: #111111;
   color: white;
+}
+
+.Break {
+    background-color: white;
+    height: 10px;
+    color: white;
 }
 
 /* Media Query for mobile screens */
