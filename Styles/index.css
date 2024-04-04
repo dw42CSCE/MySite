@@ -218,9 +218,11 @@ ul {
     .cornerbadge a {
         width: 100%;
         text-align: center;
+        padding: 0px;
         padding-top: 30px;
         padding-bottom: 30px;
         font-size: 30px;
+
     }
 
     .rightmenu {
@@ -252,6 +254,7 @@ ul {
 
     .AMCol, .AMDDet, .CItems {
         width: 100%;
+        padding: 0px;
     }
     
     .AMCol{
@@ -265,14 +268,17 @@ ul {
     }
     
     .AMDDet {
-    margin-top: 10px;
-    display: block;
-    padding-top: 7px;
-    padding-bottom:7px;
-    width: 50%;
-    color: white;
-    border: 2px solid white;
-}
+        margin-top: 10px;
+        display: block;
+        padding: 10%;
+        padding-top: 7px;
+        padding-bottom:7px;
+        width: 80%;
+        color: white;
+        border: none;
+        align-self: center;
+    }
+
 
     .AMDImgActual {
         width:300px;
@@ -293,7 +299,7 @@ ul {
         padding-bottom: 0px;
         margin-bottom: 10px;
         text-decoration: underline;
-        width: 50%;
+        width: 100%;
     
     }
     
@@ -306,5 +312,18 @@ ul {
     .Banner {
         height: 400px;
         padding-bottom: 30px;
+    }
+
+    .Alist{
+        width: 100%;
+        text-align: center;
+    }
+
+    .AProject{
+        width:100%;
+    }
+
+    .Achievements{
+        padding-bottom: 20px;
     }
 }
