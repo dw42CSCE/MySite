@@ -96,9 +96,11 @@ ul {
     .cornerbadge a {
         width: 100%;
         text-align: center;
+        padding: 0px;
         padding-top: 30px;
         padding-bottom: 30px;
         font-size: 30px;
+
     }
 
     .rightmenu {
